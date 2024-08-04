@@ -20,6 +20,8 @@ const Logo: FC<LogoProps> = () => {
         src={pizzaIcon}
         alt={'Иконка пицца в логотипе'}
         className={cn(styles.logoIcon)}
+        width={70}
+        height={70}
       />
 
       <div>
