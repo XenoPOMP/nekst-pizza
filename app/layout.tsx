@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Nunito } from 'next/font/google';
 import { type ReactNode } from 'react';
 
 import { CoreLayout, Providers } from '@/src/components/layout';
@@ -9,7 +9,7 @@ import { generateOpenGraph, generateStaticMetadata } from '@/src/utils/seo';
 import { AppConstants } from './app.constants';
 import './globals.scss';
 
-const mainFont = Inter({ subsets: ['latin'] });
+const mainFont = Nunito({ subsets: ['latin', 'cyrillic'] });
 
 export async function generateMetadata(): Promise<Metadata> {
   const env = useEnv();
