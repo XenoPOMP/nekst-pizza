@@ -1,11 +1,13 @@
 <img src="https://github.com/XenoPOMP/next-template/assets/101574433/4f668b51-381f-4f1f-8803-f0b6370fd1b5" width="160" align="left" />
 
-### Next.js 14 Template
+### Некст Пицца
+
+_Ещё одно приложение для доставки пиццы_
 
 <p>
-<img alt="CI Status" src="https://img.shields.io/github/actions/workflow/status/XenoPOMP/next-template/ci.yml?logo=github&logoColor=%23fff&label=CI&style=flat-square" />
+<img alt="CI Status" src="https://img.shields.io/github/actions/workflow/status/XenoPOMP/nekst-pizza/ci.yml?logo=github&logoColor=%23fff&label=CI&style=flat-square" />
 <a href="#contributors">
-<img alt="All Contributors" src="https://img.shields.io/github/all-contributors/XenoPOMP/next-template?color=ee8449&style=flat-square">
+<img alt="All Contributors" src="https://img.shields.io/github/all-contributors/XenoPOMP/nekst-pizza?color=ee8449&style=flat-square">
 </a>
 </p>
 
