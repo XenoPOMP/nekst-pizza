@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Nunito } from 'next/font/google';
 import { type ReactNode } from 'react';
 
-import { CoreLayout, Providers } from '@/src/components/layout';
+import { Providers } from '@/src/components/layout';
 import { useEnv } from '@/src/hooks';
 import { generateOpenGraph, generateStaticMetadata } from '@/src/utils/seo';
 
@@ -47,9 +47,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang='ru'>
       <body className={mainFont.className}>
-        <Providers>
-          <CoreLayout>{children}</CoreLayout>
-        </Providers>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
