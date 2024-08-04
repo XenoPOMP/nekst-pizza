@@ -11,21 +11,13 @@ _Ещё одно приложение для доставки пиццы_
 </a>
 </p>
 
-Next is modern React-based framework that provides major features, like SSR, Turbopack, SEO-friendly.
+Идея приложения пришла ко мне из видео с канала [Archakov Blog](https://www.youtube.com/watch?v=GUwizGbY4cc).
 
-## Features
+У автора были позаимствован дизайн приложения с минимальными изменениями, также при создании приложения я просматривал некоторые эпизоды из видео автора (например, эпизод с NextAuth).
 
-- 🖼️ SEO optimization + Open Graph images
-- 🧪 Unit testing with Vitest and E2E with Cypress
-- 🌓 Multiple themes support with [`next-themes`](https://github.com/pacocoursey/next-themes) integrated with TailwindCSS
-- 🐻 Zustand as state manager
-- 🐶 Husky hooks
-- 🌿 `.github` folder with ready-to-use **actions** and **dependabot**
+В остальном же я реализовывал основную часть функционала самостоятельно.
 
-## Documentation
-- [Installation & usage](./.dev/docs/usage.md)
-
-## Contributors
+## Контрибуторы
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
